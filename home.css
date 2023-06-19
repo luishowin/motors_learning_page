@@ -65,6 +65,7 @@
 .left_text{
     flex: 1 1 auto;
     width: 50vmin;
+    min-width: 80vmin;
 }
     .left_text h1{
         font-family: 'Inter', sans-serif;
@@ -72,6 +73,7 @@
         width: 90%;
         margin-left: 27px;
         color: #586c72;
+        font-size: 1.5em;
     }
     .left_text p{
         font-family: 'Inter', sans-serif;
@@ -87,6 +89,7 @@
 .right_image{
     flex: 1 1 auto;
     width: 50vmin;
+    min-width: 80vmin;
 }
     .right_image img{
         margin-top: 20px;
@@ -107,9 +110,11 @@
     .sub_title p{
         font-family: 'Inter', sans-serif;
         letter-spacing: 2px;
-        margin-top: 30px;
+        margin-top: 40px;
         font-size: 2rem;
         color: #5f747a;
+        font-size: 1.5em;
+        margin-bottom: 0px;
     }
 /* three tabs */
 .three_tabs{
@@ -127,9 +132,11 @@
     background-color: #e7ecf0;
     border-radius: 5px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
+    margin-left:5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    margin-top: 10px;
+    min-width: 58vmin;
 
 }
     .three_tabs h1{
@@ -144,7 +151,7 @@
     }
     .three_tabs p{
         font-family: 'Inter', sans-serif;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         font-size: 1rem;
         text-align: justify;
         width: 90%;
