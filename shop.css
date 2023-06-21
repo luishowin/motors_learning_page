@@ -31,6 +31,49 @@
     .nav_bar a:hover{
         color: #000000;
     }
+
+/* oops banner*/
+.oops{
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eaeff4;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+    .left_text{
+        width: 100%;
+        flex: auto;
+    }
+    .left_text > p{
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 1.5px;
+        font-size: 1em;
+        text-align: justify;
+        color: #5b6669;
+    }
+
+/* bottom banner*/
+.banner_image{
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+    .banner_image > img{
+        width: 100%;
+    }
+
+
+
 /* footer */
 .footer{
     display: flex;
