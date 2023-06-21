@@ -7,7 +7,6 @@
     padding-bottom: 10px;
     background-color: #eaeff4;
     border-radius: 5px;
-    width: 80%;
     margin-bottom: 20px;
 }
 .nav_bar{
@@ -34,21 +33,21 @@
 
 /* oops banner*/
 .oops{
-    display: block;
+    display: flex;
     margin-left: auto;
-    width: 80%;
     margin-right: auto;
+    width: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #eaeff4;
     border-radius: 5px;
-    width: 80%;
     margin-bottom: 20px;
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
     .left_text{
-        width: 100%;
-        flex: auto;
+        width: 100vmin;
+        flex: 1 1 auto;
     }
     .left_text > p{
         font-family: 'Courier New', Courier, monospace;
@@ -58,6 +57,17 @@
         color: #5b6669;
     }
 
+    .right_image{
+        width: 50vmin;
+        flex: 1 1 auto;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+    }
+
+
 /* bottom banner*/
 .banner_image{
     display: block;
@@ -66,10 +76,10 @@
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 5px;
 }
-    .banner_image > img{
+    .banner_image img{
         width: 100%;
+        border-radius: 5px;
     }
 
 
@@ -79,7 +89,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
