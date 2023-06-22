@@ -32,6 +32,80 @@
     .nav_bar a:hover{
         color: #000000;
     }
+
+/* second tab with text left and image right*/
+.top_tab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: rgb(231, 236, 240);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5f747a;
+    border-radius: 5px;
+}
+
+.left_text{
+    flex: 1 1 auto;
+    width: 50vmin;
+    min-width: 80vmin;
+}
+    .left_text h1{
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 2px;
+        width: 90%;
+        margin-left: 27px;
+        color: #586c72;
+        font-size: 1.5em;
+    }
+    .left_text p{
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-align: justify;
+        word-wrap: break-word;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.right_image{
+    flex: 1 1 auto;
+    width: 50vmin;
+    min-width: 80vmin;
+}
+    .right_image img{
+        margin-top: 20px;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        aspect-ratio: 1  1 auto;
+        border-radius: 5px;
+    }
+
+/*subtitle*/
+    .sub_title{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .sub_title p{
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 2px;
+            margin-top: 40px;
+            font-size: 2rem;
+            color: #5f747a;
+            font-size: 1.5em;
+            margin-bottom: 0px;
+        }
+
+
 /* footer */
 .footer{
     display: flex;
